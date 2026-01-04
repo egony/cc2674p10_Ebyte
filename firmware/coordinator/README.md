@@ -45,4 +45,5 @@ Strongly recommended to clear the memory after flashing (look about it on [Flash
 - Default TX power: 20dBm.
 - Extended LEDs support
 - DCDC and VDDR enabled
-- HF XOSC CAPARRAY disabled
+- HF XOSC CAPARRAY enabled
+- SET_CCFG_MODE_CONF_XOSC_CAPARRAY_DELTA set to 0xFA
