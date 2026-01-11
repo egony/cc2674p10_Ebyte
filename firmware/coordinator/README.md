@@ -30,6 +30,10 @@ Leds can be turned OFF/ON by zigbee2mqtt config.
 - Flash button on DIO15 used for bootloader activation (for firmware update)
 - Reset button - you guess what it do.
 
+### Flash tool
+
+For flashing you may need [Flash tool](https://github.com/egony/cc2674p10_Ebyte/tree/main/firmware/flash_tools), made especially for cc2674p10.  
+
 ### Notes
 
 Strongly recommended to clear the memory after flashing (look about it on [Flashing page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki/Flashing)).
