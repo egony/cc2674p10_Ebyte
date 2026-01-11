@@ -8,6 +8,11 @@ Into this fork some code injected from https://github.com/smlight-tech/smlight-c
 
 Made with love and hate. Be hold!
 
+### Usage example
+
+    python ti-python-sbl.py -d CC26X4 -p COM3 -ewv znp_CC2674P10_E72_20260101.hex
+    python ti-python-sbl.py -d CC26X4 -p socket://192.266.3.200:6638 -b 115200 -ewv znp_CC2674P10_E72_20260101.hex
+
 ## Changelog
 
 ### 2026-01-11
