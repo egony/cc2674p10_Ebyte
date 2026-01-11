@@ -36,7 +36,7 @@ For flashing you may need [flash tool](https://github.com/egony/cc2674p10_Ebyte/
 
 ### Notes
 
-Strongly recommended to clear the memory after flashing (look about it on [Flashing page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki/Flashing)).
+Strongly recommended to clear the memory after flashing (look about it on [cc2652 flashing page](https://github.com/egony/cc2652p_E72-2G4M20S1E/wiki/Flashing)).
 
 ### Sources
 
