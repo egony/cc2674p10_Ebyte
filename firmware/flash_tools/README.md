@@ -14,7 +14,7 @@ Made with love and hate. Be hold!
 
 - initial beta release
 - magic vipilen nah
-- .bin files support damaged
-- erase-write mode damaged
+- .bin files support damaged, will fix later maybe
+- erase-write mode damaged (yes, you need no this), will fix later maybe
 - packet buffer increased to 252
 - socket mode speedups
