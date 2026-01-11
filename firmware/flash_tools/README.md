@@ -10,6 +10,10 @@ Made with love and hate. Be hold!
 
 ### Requires
 
+Download and install [python 3.13](https://www.python.org/downloads/) or later.
+
+Install necessary add-ons:
+
     pip install pyserial
     pip install intelhex
 
