@@ -32,7 +32,7 @@ Leds can be turned OFF/ON by zigbee2mqtt config.
 
 ### Flash tool
 
-For flashing you may need [Flash tool](https://github.com/egony/cc2674p10_Ebyte/tree/main/firmware/flash_tools), made especially for cc2674p10.  
+For flashing you may need [flash tool](https://github.com/egony/cc2674p10_Ebyte/tree/main/firmware/flash_tools), made especially for cc2674p10.  
 
 ### Notes
 
