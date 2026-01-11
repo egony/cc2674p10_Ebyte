@@ -8,6 +8,11 @@ Into this fork some code injected from https://github.com/smlight-tech/smlight-c
 
 Made with love and hate. Be hold!
 
+### Requires
+
+    pip install pyserial
+    pip install intelhex
+
 ### Usage example
 
     python ti-python-sbl.py -d CC26X4 -p COM3 -ewv znp_CC2674P10_E72_20260101.hex
