@@ -6,8 +6,6 @@ This is the fork of https://github.com/TexasInstruments/simplelink-lowpower-f2-s
 
 Into this fork some code injected from https://github.com/smlight-tech/smlight-cc-flasher
 
-Made with love and hate. Be hold!
-
 ### Requires
 
 Download and install [python 3.13](https://www.python.org/downloads/) or later.
