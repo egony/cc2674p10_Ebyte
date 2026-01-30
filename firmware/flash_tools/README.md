@@ -27,7 +27,7 @@ Install necessary add-ons:
 ### 2026-01-11
 
 - initial beta release
-- magic vipilen nah
+- magic support removed (because useless)
 - .bin files support damaged, will fix later maybe
 - erase-write mode damaged (yes, you need no this), will fix later maybe
 - packet buffer increased to 252
