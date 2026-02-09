@@ -2,6 +2,8 @@
 
 ## Description
 
+Just a ptoof of concept, so it is early alpha version.
+
 This is the fork of https://github.com/TexasInstruments/simplelink-lowpower-f2-sdk/tree/main/source/third_party/cc2538-bsl
 
 Into this fork some code injected from https://github.com/smlight-tech/smlight-cc-flasher
@@ -24,7 +26,7 @@ Install necessary add-ons:
 
 ### 2026-01-11
 
-- initial beta release
+- initial early alpha release
 - magic support removed (because useless)
 - .bin files support damaged, will fix later maybe
 - erase-write mode damaged (yes, you need no this), will fix later maybe
