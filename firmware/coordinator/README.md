@@ -8,7 +8,7 @@ Based on [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordin
 - Default TX power: 20dBm.
 - Extended LEDs support
 - DC/DC and VDDR enabled for high power TX
-- HF XOSC CAPARRAY enabled (module w/o capacistors)
+- HF XOSC CAPARRAY disabled
 
 ### TX power ajust
 
@@ -24,7 +24,7 @@ Available TX power values: -20, -18, -15, -12, -10, -9, -6, -5, -3, 0, 1..20
 - Red (DIO7) flashed when APS frame received
 - When stick restarted - both double blinking (depends on zigbee-heardsman status and **disable_led** configuration)
 
-Leds can be turned OFF/ON by zigbee2mqtt config.
+Leds can be turned OFF/ON by zigbee2mqtt config (see disable_led).
 
 ### Buttons description
 - Flash button on DIO15 used for bootloader activation (for firmware update)
@@ -45,6 +45,10 @@ Sources you can download [here](https://github.com/egony/egony.github.io/blob/ma
 ---
 
 ## Changelog
+
+### 2026-02-09
+
+- HF XOSC CAPARRAY disabled (when set to 0xFA RF is inaccurate)
 
 ### 2026-01-01
 
