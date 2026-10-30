@@ -2,8 +2,6 @@
 
 ## Description
 
-Just a ptoof of concept, so it is early alpha version.
-
 This is the fork of https://github.com/TexasInstruments/simplelink-lowpower-f2-sdk/tree/main/source/third_party/cc2538-bsl
 
 Into this fork some code injected from https://github.com/smlight-tech/smlight-cc-flasher
@@ -19,10 +17,17 @@ Install necessary add-ons:
 
 ### Usage example
 
-    python ti-python-sbl.py -d CC26X4 -p COM3 -ewv znp_CC2674P10_E72_20260101.hex
-    python ti-python-sbl.py -d CC26X4 -p socket://192.266.3.200:6638 -b 115200 -ewv znp_CC2674P10_E72_20260101.hex
+    python ti-python-sbl.py -d CC26X4 -p COM3 -ewv znp_CC2674P10_E72_20261030.hex
+    python ti-python-sbl.py -d CC26X2 -p COM3 -ewv znp_CC2652P_E72_20261031.hex
+    python ti-python-sbl.py -d CC26X4 -p socket://192.266.3.200:6638 -b 115200 -ewv znp_CC2674P10_E72_20261030.hex
 
 ## Changelog
+
+### 2026-10-30
+
+- erase second segment (CCFG) in CC2674P10 before write 
+- .bin files support removed
+- erase-write removed
 
 ### 2026-01-11
 
